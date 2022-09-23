@@ -1,8 +1,9 @@
-# This is an example title
+# 
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 ## Description
 
-This is an example description
+
 
 ## Table of Contents
 
@@ -16,11 +17,11 @@ This is an example description
 
 ## Installation
 
-This is an example set of installation instructions
+
 
 ## Usage
 
-This is an example of usage instructions
+
 
 ## Credits
 
@@ -28,22 +29,21 @@ MANUALLY LIST COLLABORATORS HERE
 
 ## License
 
-LicenseA 
-
-## Badges
-
-This is an example github username
+License0 
 
 ![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
 
-## Features
-
-MANUALLY LIST FEATURES HERE
-
 ## Tests
 
-MANUALLY LIST TESTS HERE
+
 
 ## Contributing
 
-This is an example of contribution guidelines
+
+
+## Questions
+
+
+// TODO Add actual link to the github
+
+
