@@ -78,23 +78,25 @@ const questions = [
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
     const readmeContent = `# ${data.projectTitle}
+// TODO Addd badges based on license
 
 ## Description
 
 ${data.projectDescription}
 
-## Table of Contents (Optional)
-
-If your README is long, add a table of contents to make it easy for users to find what they need.
+## Table of Contents
 
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
 - [License](#license)
+- [Features](#features)
+- [Tests](#tests)
+- [Contributing](#contributing)
 
 ## Installation
 
-${data.projectIntructions}
+${data.projectInstructions}
 
 ## Usage
 
@@ -102,33 +104,32 @@ ${data.projectUsage}
 
 ## Credits
 
-List your collaborators, if any, with links to their GitHub profiles.
-
+MANUALLY LIST COLLABORATORS HERE
 
 ## License
 
 ${data.projectLicense} 
 
-## Badges
-
-${data.projectGithub}
-
 ![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
-
-## Features
-
-If your project has a lot of features, list them here.
-
-## How to Contribute
-
-${data.projectContributionGuidelines}
 
 ## Tests
 
-Go the extra mile and write tests for you`
+${data.projectTestInstructions}
+
+## Contributing
+
+${data.projectContributionGuidelines}
+
+## Questions
+
+${data.projectGithub}
+// TODO Add actual link to the github
+${data.projectEmail}
+
+`
     
 
-    fs.writeFile(fileName,readmeContent,(err) => {
+    fs.writeFile(`./output/${fileName}`,readmeContent,(err) => {
         err ? console.log('Failed to write readme.md') : console.log("Readme written to file")
     })
 
@@ -139,7 +140,7 @@ function init() {
 
     inquirer.prompt(questions)
         .then((answers) => {
-            writeToFile('testreadme.md',answers)
+            writeToFile('README.md',answers)
         })
     
 }
