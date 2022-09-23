@@ -1,5 +1,6 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer')
+const fs = require('fs');
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -75,10 +76,73 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    const readmeContent = `# ${data.projectTitle}
+
+## Description
+
+${data.projectDescription}
+
+## Table of Contents (Optional)
+
+If your README is long, add a table of contents to make it easy for users to find what they need.
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
+
+## Installation
+
+${data.projectIntructions}
+
+## Usage
+
+${data.projectUsage}
+
+## Credits
+
+List your collaborators, if any, with links to their GitHub profiles.
+
+
+## License
+
+${data.projectLicense} 
+
+## Badges
+
+${data.projectGithub}
+
+![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
+
+## Features
+
+If your project has a lot of features, list them here.
+
+## How to Contribute
+
+${data.projectContributionGuidelines}
+
+## Tests
+
+Go the extra mile and write tests for you`
+    
+
+    fs.writeFile(fileName,readmeContent,(err) => {
+        err ? console.log('Failed to write readme.md') : console.log("Readme written to file")
+    })
+
+}
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+
+    inquirer.prompt(questions)
+        .then((answers) => {
+            writeToFile('testreadme.md',answers)
+        })
+    
+}
 
 // Function call to initialize app
 init();
