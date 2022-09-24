@@ -1,6 +1,7 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
 
+// License types are from https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba
 LICESNSE_TYPES = [
   {
     name: "Apache 2.0",
@@ -132,7 +133,7 @@ LICESNSE_TYPES = [
   },
 ];
 
-// TODO: Create an array of questions for user input
+// Enumerate questions for the user to answer via Inquirer
 const questions = [
   // WHEN I enter my project title
   // THEN this is displayed as the title of the README
@@ -203,20 +204,15 @@ function lic2badge(licenseType) {
   let output;
   LICESNSE_TYPES.forEach((element) => {
     if (element.name === licenseType) {
-      console.log("Found matching license type, adding MD:");
-      console.log(element.mdText);
       output = element.mdText;
-    };
+    }
   });
   return output;
-};
+}
 
-function lic2
-
-// TODO: Create a function to write README file
+// Write the actual README.md file to disk after formatting its contents
 function writeToFile(fileName, answers) {
-    console.log(answers.projectLicense)
-    console.log(lic2badge(answers.projectLicense))
+  // Setting up the mother of all template literals for the actual body of the file
   const readmeContent = `# ${answers.projectTitle}
 ${lic2badge(answers.projectLicense)}
 
@@ -230,9 +226,9 @@ ${answers.projectDescription}
 - [Usage](#usage)
 - [Credits](#credits)
 - [License](#license)
-- [Features](#features)
 - [Tests](#tests)
 - [Contributing](#contributing)
+- [Questions](#questions)
 
 ## Installation
 
@@ -250,9 +246,6 @@ MANUALLY LIST COLLABORATORS HERE
 
 Licensed under the ${answers.projectLicense} license.
 
-
-![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
-
 ## Tests
 
 ${answers.projectTestInstructions}
@@ -263,20 +256,22 @@ ${answers.projectContributionGuidelines}
 
 ## Questions
 
-${answers.projectGithub}
-// TODO Add actual link to the github
-${answers.projectEmail}
+[Github: ${answers.projectGithub}](https://github.com/${
+    answers.projectGithub
+  })<br>
+Email: ${answers.projectEmail}
 
 `;
 
+  // Write the file to disk and console log a confirmation
   fs.writeFile(`./output/${fileName}`, readmeContent, (err) => {
     err
-      ? console.log("Failed to write readme.md")
-      : console.log("Readme written to file");
+      ? console.log(`Failed to write ${fileName}`)
+      : console.log(`Successfully written to ./output/${fileName}`);
   });
 }
 
-// TODO: Create a function to initialize app
+// Prompt the user with questions and format the answers in a file written to disk
 function init() {
   inquirer.prompt(questions).then((answers) => {
     writeToFile("README.md", answers);

@@ -1,9 +1,9 @@
-# 
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+# Example title
+[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
 
 ## Description
 
-
+Example description
 
 ## Table of Contents
 
@@ -11,17 +11,16 @@
 - [Usage](#usage)
 - [Credits](#credits)
 - [License](#license)
-- [Features](#features)
 - [Tests](#tests)
 - [Contributing](#contributing)
 
 ## Installation
 
-
+Example installation instructions
 
 ## Usage
 
-
+Example usage information
 
 ## Credits
 
@@ -29,21 +28,18 @@ MANUALLY LIST COLLABORATORS HERE
 
 ## License
 
-License0 
-
-![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
+Licensed under the CC0 license.
 
 ## Tests
 
-
+Example test instructions
 
 ## Contributing
 
-
+Example contribution guidelines
 
 ## Questions
 
-
-// TODO Add actual link to the github
-
+[Github: Gordon-Magill](https://github.com/Gordon-Magill)<br>
+[Email: gordon.magill@gmail.com](gordon.magill@gmail.com)
 
