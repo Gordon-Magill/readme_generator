@@ -1,9 +1,9 @@
-# Example title
-[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
+# asdf
+[![License: Do What the Fuck You Want to Public License](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)](http://www.wtfpl.net/about/)
 
 ## Description
 
-Example description
+asdf
 
 ## Table of Contents
 
@@ -13,33 +13,34 @@ Example description
 - [License](#license)
 - [Tests](#tests)
 - [Contributing](#contributing)
+- [Questions](#questions)
 
 ## Installation
 
-Example installation instructions
+asdf
 
 ## Usage
 
-Example usage information
+asdf
 
 ## Credits
 
 MANUALLY LIST COLLABORATORS HERE
 
-## License
-
-Licensed under the CC0 license.
-
 ## Tests
 
-Example test instructions
+asdf
 
 ## Contributing
 
-Example contribution guidelines
+asdf
 
 ## Questions
 
-[Github: Gordon-Magill](https://github.com/Gordon-Magill)<br>
-[Email: gordon.magill@gmail.com](gordon.magill@gmail.com)
+[Github: asdf](https://github.com/asdf)<br>
+Email: asdf
+
+## License
+
+Licensed under [Do What the Fuck You Want to Public License](http://www.wtfpl.net/about/).
 
