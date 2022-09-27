@@ -1,9 +1,9 @@
-# README generator
-[![License: CC0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
+# Test title
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 ## Description
 
-Generates a readme based on user input
+Test description
 
 ## Table of Contents
 
@@ -18,11 +18,11 @@ Generates a readme based on user input
 
 ## Installation
 
-Run "npm i" after cloning
+Test installation instructions
 
 ## Usage
 
-Run "node index" after installing
+Test usage information
 
 ## Credits
 
@@ -30,18 +30,18 @@ MANUALLY LIST COLLABORATORS HERE
 
 ## Tests
 
-N/A
+Test test instructions
 
 ## Contributing
 
-N/A
+Test contribution guidelines
 
 ## Questions
 
-[Github: Gordon-Magill](https://github.com/Gordon-Magill)<br>
-Email: gordon.magill@gmail.com
+[Github: test-username](https://github.com/test-username)<br>
+Email: test@email.com
+Please reach out via provided email for any questions.
 
 ## License
 
-Licensed under [CC0](http://creativecommons.org/publicdomain/zero/1.0/).
-
+Licensed under [Apache 2.0](https://opensource.org/licenses/Apache-2.0).

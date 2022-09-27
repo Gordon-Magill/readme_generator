@@ -7,7 +7,7 @@
 
 Generates a README template based off of user input. Uses the npm "inquirer" package to solicit input and then formats that content into a README to avoid having to do the basics of README generation repeatedly for each project.
 
-A sample README generated with this tool is present in the "output" folder (also where new README files will be generated, overwriting any existing files)
+A sample README generated with this tool is present in the "output" folder (also where new README files will be generated, overwriting any existing files).
 
 ## Table of Contents
 
@@ -22,7 +22,7 @@ A sample README generated with this tool is present in the "output" folder (also
 
 ## Installation
 
-Run "npm i" in the directory of the repo after cloning it. Ensure that node.js is installed prior to use. Verified on node v16.17.0.
+Run "npm i" in the directory of the repo after cloning it. Ensure that node.js is installed prior to use. Verified on node v16.17.0 (LTS).
 
 ## Usage
 
