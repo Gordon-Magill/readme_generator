@@ -3,8 +3,6 @@
 
 ![Usage screenshot](./assets/functionalScreenshot.png)
 
-
-
 ## Description
 
 Generates a README template based off of user input. Uses the npm "inquirer" package to solicit input and then formats that content into a README to avoid having to do the basics of README generation repeatedly for each project.
@@ -31,7 +29,7 @@ Run "npm i" in the directory of the repo after cloning it. Ensure that node.js i
 Run "node index" in the directory of the cloned repo. Answer prompts in the terminal as they are supplied.
 
 Video demonstration:
-https://www.youtube.com/watch?v=SproceGi4oE
+https://www.youtube.com/watch?v=ce5kzYQ5tO8
 
 ## Contributing
 
