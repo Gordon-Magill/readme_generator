@@ -24,6 +24,7 @@ Run "npm i" in the directory of the repo after cloning it. Ensure that node.js i
 ## Usage
 
 Run "node index" in the directory of the cloned repo. Answer prompts in the terminal as they are supplied.
+Generated README.md is located in the "output" folder.
 
 Video demonstration:
 https://www.youtube.com/watch?v=ce5kzYQ5tO8
