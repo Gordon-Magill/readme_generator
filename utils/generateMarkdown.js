@@ -243,11 +243,11 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {
   noLicense = `## License
 
-  This code is not licensed in any way.`;
+This code is not licensed in any way.`;
 
   yesLicense = `## License
 
-  Licensed under ${renderLicenseLink(license)}.`;
+Licensed under ${renderLicenseLink(license)}.`;
 
   if (license === "None") {
     return noLicense;
