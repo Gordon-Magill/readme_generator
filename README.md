@@ -13,9 +13,6 @@ A sample README generated with this tool is present in the "output" folder (also
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
-- [Tests](#tests)
 - [Contributing](#contributing)
 - [Questions](#questions)
 - [License](#license)
@@ -43,4 +40,3 @@ Email: gordon.magill@gmail.com
 ## License
 
 Licensed under [CC0](http://creativecommons.org/publicdomain/zero/1.0/).
-

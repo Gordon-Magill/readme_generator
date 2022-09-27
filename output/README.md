@@ -10,7 +10,6 @@ Test description
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
-- [License](#license)
 - [Tests](#tests)
 - [Contributing](#contributing)
 - [Questions](#questions)
