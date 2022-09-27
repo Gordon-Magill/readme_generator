@@ -1,9 +1,9 @@
-# asdf
-[![License: Do What the Fuck You Want to Public License](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)](http://www.wtfpl.net/about/)
+# README generator
+[![License: CC0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
 
 ## Description
 
-asdf
+Generates a README template based off of user input
 
 ## Table of Contents
 
@@ -14,14 +14,15 @@ asdf
 - [Tests](#tests)
 - [Contributing](#contributing)
 - [Questions](#questions)
+- [License](#license)
 
 ## Installation
 
-asdf
+Run "npm i" in the directory of the repo after cloning it
 
 ## Usage
 
-asdf
+Run "node index" in the directory of the repo
 
 ## Credits
 
@@ -29,18 +30,18 @@ MANUALLY LIST COLLABORATORS HERE
 
 ## Tests
 
-asdf
+No tests at this time
 
 ## Contributing
 
-asdf
+Not accepting contributions at this time
 
 ## Questions
 
-[Github: asdf](https://github.com/asdf)<br>
-Email: asdf
+[Github: Gordon-Magill](https://github.com/Gordon-Magill)<br>
+Email: gordon.magill@gmail.com
 
 ## License
 
-Licensed under [Do What the Fuck You Want to Public License](http://www.wtfpl.net/about/).
+  Licensed under [CC0](http://creativecommons.org/publicdomain/zero/1.0/).
 
