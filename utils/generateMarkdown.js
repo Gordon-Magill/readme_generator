@@ -234,6 +234,16 @@ Licensed under ${renderLicenseLink(license)}.`;
   return yesLicense;
 }
 
+// Generate email contact section if email was supplied
+function renderEmailContact(email) {
+  if (email == '') {
+    return '';
+  };
+  emailSection = `Email: ${email}
+Please reach out via provided email for any questions.`;
+  return emailSection;
+};
+
 // Function to generate the actual md
 function generateMarkdown(answers) {
 
@@ -281,11 +291,9 @@ ${answers.projectContributionGuidelines}
 [Github: ${answers.projectGithub}](https://github.com/${
     answers.projectGithub
   })<br>
-Email: ${answers.projectEmail}
+${renderEmailContact(answers.projectEmail)}
 
-${renderLicenseSection(answers.projectLicense)}
-
-`;
+${renderLicenseSection(answers.projectLicense)}`;
 
   return readmeContent;
 }
